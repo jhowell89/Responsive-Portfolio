@@ -134,6 +134,7 @@ h3, h2 {
   border: 1px solid #dddddd;
 }
 
+
 /* portfolio page */
 
 .work {
@@ -216,27 +217,26 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 980px) {
+@media (max-width: 980px) {
   
   #main-container {
-     width:100%;
+     width: 100%;
    }
    #main-section{
-     width:100%;
+     width: 100%;
    }
-   @media screen and (max-width:768px) {
+   @media (max-width:768px) {
   
     #main-container {
-      padding-top:100%;
+      padding-top: 100%;
     }
-    @media screen and (max-width:640px) {
-  
-      #main-container {
-        padding-top:100%;
+    @media only screen and (min-width:768px) {
+      #container {
+        padding-bottom: 70px
+
       }
-      #masthead {
-        width:100%;
-      }
+    
+      
       
   
      
